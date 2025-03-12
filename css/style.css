@@ -634,3 +634,48 @@ a:focus {
 .contact_card a:hover {
   text-decoration: underline;
 }
+
+
+
+/* commette */
+
+/* Heading Styling */
+h2 {
+  color: #003366;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Table Styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+th {
+  background-color: #003366;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Table Data */
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Table Row Styling */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #00AEEF;
+  color: white;
+}
